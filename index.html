@@ -1,0 +1,164 @@
+<html>
+  <head>
+    <title>Background Changer!</title>
+    <link rel="icon" href="Color-wheel.ico" type="image/x-icon">
+<style>
+.divide {
+  column-count: 3;
+}
+
+body {
+  background-color:lightblue;
+  text-align:center;
+}
+h1 {
+  color:darkblue;
+  background:cornflowerblue;
+  border: 3px dashed;
+}
+
+#red{
+  background-color:red;
+  cursor:pointer;
+  height:34px;
+  width:75px;
+}
+
+#blue{
+   background-color:blue;
+  cursor:pointer;
+  height:34px;
+  width:75px;
+}
+
+#green{
+  background-color:green;
+  cursor:pointer;
+  height:34px;
+  width:75px;
+}
+
+#pink{
+  background-color:pink;
+  cursor:pointer;
+  height:34px;
+  width:75px;
+}
+
+#yellow{
+  background-color:yellow;
+  cursor:pointer;
+  height:34px;
+  width:75px;
+}
+
+#white{
+  background-color:white;
+  cursor:pointer;
+  height:34px;
+  width:75px;
+}
+
+#black{
+  background-color:black;
+  cursor:pointer;
+  height:34px;
+  width:75px;
+  color:white;
+}
+
+#lightblue{
+  background-color:lightblue;
+  cursor:pointer;
+  height:34px;
+  width:100px;
+  color:black;
+}
+
+#lightgreen{
+  background-color:lightgreen;
+  cursor:pointer;
+  height:34px;
+  width:100px;
+  color:black;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: aqua;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+  </head>
+  <body>
+    <h1>Background Changer!</h1>
+    <p>I created this so that people can learn some basic colors. Not very exciting but I hope it is useful.</p>
+    <div class ="divide">
+    <button onclick="changetored()" id="red">Red</button>
+      <br><br>
+    <button onclick="changetoblue()" id="blue">Blue</button>
+      <br><br>
+    <button onclick="changetogreen()" id="green">Green</button> <br><br>
+    <button onclick="changetopink()" id="pink">Pink</button>
+      <br><br>
+      <button onclick="changetoyellow()" id="yellow">Yellow</button>
+      <br><br>
+      <button onclick="changetowhite()" id="white">White</button>
+      <br><br>
+      <button onclick="changetoblack()" id="black">Black</button>
+      <br><br>
+      <button onclick="changetolightblue()" id="lightblue">Light Blue</button>
+      <br><br>
+      <button onclick="changetolightgreen()" id="lightgreen">Light Green</button>
+    </div>
+    <h3 id="like"><u>This is all hope you like it!</u></p>
+    <p id="link"><a href="https://suchirbharathkumar.whjr.site">Visit creator's website.</a></p>
+<script>
+function changetored() { document.body.style.backgroundColor="red";
+document.getElementById("like").style.color="black";
+}
+
+function changetoblue() { document.body.style.backgroundColor="blue";
+document.getElementById("like").style.color="black";
+}
+function changetogreen() { document.body.style.backgroundColor="green";
+document.getElementById("like").style.color="black";
+}
+function changetopink() { document.body.style.backgroundColor="pink";
+document.getElementById("like").style.color="black";
+}
+function changetoyellow() { document.body.style.backgroundColor="yellow";
+document.getElementById("like").style.color="black";
+}
+
+function changetowhite() { document.body.style.backgroundColor="white";
+document.getElementById("like").style.color="black";
+}
+
+function changetoblack() { document.body.style.backgroundColor="black"; document.getElementById("like").style.color="white";
+}
+
+function changetolightblue() { document.body.style.backgroundColor="lightblue";
+document.getElementById("like").style.color="black";
+}
+
+function changetolightgreen() { document.body.style.backgroundColor="lightgreen";
+document.getElementById("like").style.color="black";
+}
+</script>
+  </body>
+</html>
